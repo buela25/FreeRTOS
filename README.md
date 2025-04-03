@@ -1,8 +1,10 @@
 # FreeRTOS
 FreeRTOS projects with Microcontrollers
-# MCU used- B-L475E-IOT01A1
+# MCU used- ESP32-WROOM-32
+
 # Project description - 
-1. Create a CLI task using FreeRTOS which receives command from user using UART protocol.
-2. Based on the LED command received , change the state of configured LED and print back the acknowledgment.
-   
+Here's a FreeRTOS project for ESP32 with three tasks:
+1. Sensor Task - Reads sensor data
+2. Wi-Fi Task - Connects ESP32 to Wi-Fi and sends data to Azure IoT Hub.
+
 
